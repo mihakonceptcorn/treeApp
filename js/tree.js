@@ -14,10 +14,10 @@
             if (event.target.matches('[js-data-add]')) {
                 let parentId = event.target.parentNode.getAttribute('id');
                 sendData( {nodeName: 'Node', parentId: parentId} );
-            } else if (event.target.matches('[js-data-remove')) {
+            } else if (event.target.matches('[js-data-remove]')) {
                 let nodeId = event.target.parentNode.getAttribute('id');
                 let confirmDeleteRoot = true;
-                if (event.target.matches('[js-data-root')) {
+                if (event.target.matches('[js-data-root]')) {
                     confirmDeleteRoot = false;
                     let timerElement = document.querySelector('#time');
                     let modals = document.querySelectorAll('[js-data-modal]');
