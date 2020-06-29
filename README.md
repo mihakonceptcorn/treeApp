@@ -1,13 +1,13 @@
-#treeApp
+## treeApp
 
-<h4>Example</h4>
+## Example:
 http://tree.polushop.com.ua/
 
-<h4>About:</h4>
+## About:
 The application creates a tree structure.
 You can add, delete, rename nodes.
 
-<h4>Database:</h4>
+## Database:
 CREATE TABLE `tree` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `parent_id` int(11) DEFAULT NULL,
