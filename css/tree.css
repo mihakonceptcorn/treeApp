@@ -1,0 +1,39 @@
+.tree-list-unstyled {
+    list-style: none;
+}
+
+.tree-toggle-opend, .tree-toggle-closed {
+    margin-top: -1.5em;
+}
+
+.tree-toggle-closed::before {
+    display: inline-block;
+    margin-right: 0.255em;
+    content: "";
+    border-top: 0.3em solid transparent;
+    border-left: 0.3em solid;
+    border-bottom: 0.3em solid transparent;
+    margin-bottom: -1.4em;
+    margin-left: -1em;
+    cursor: pointer;
+}
+
+.tree-toggle-opend::before {
+    display: inline-block;
+    margin-right: 0.255em;
+    content: "";
+    border-right: 0.3em solid transparent;
+    border-top: 0.3em solid;
+    border-left: 0.3em solid transparent;
+    margin-bottom: -1.4em;
+    margin-left: -1em;
+    cursor: pointer;
+}
+
+.tree-toggle-closed ul {
+    display: none;
+}
+
+h5 {
+    cursor: pointer;
+}
